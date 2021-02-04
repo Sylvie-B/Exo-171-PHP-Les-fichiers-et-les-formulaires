@@ -11,7 +11,7 @@
     
     <form method="post" action="fichier.php" enctype="multipart/form-data">
         <div>
-            <input type="hidden" name="MAX_FILE_SIZE" value="30000" />
+            <input type="hidden" name="MAX_FILE_SIZE" value="3145728"/>
             <input type="file" name="userFile">
         </div>
         <div>
@@ -24,6 +24,7 @@
 
 
 <?php
+
 
 /**
  * 1. Créez un formulaire classique contenant un champs input de type file
